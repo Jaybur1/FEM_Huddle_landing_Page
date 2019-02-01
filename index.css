@@ -1,0 +1,252 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: inline;
+    position: relative;
+    overflow-x: hidden;
+    background: url('./images/svgRight.svg');
+}
+
+#logo {
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+#header button {
+    float: right;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    color: #9a52ff;
+    background: #f7f9fd;
+    box-shadow: 0.1px 0.1px 11px #392a4e;
+    border: none;
+    border-radius: 2px;
+    width: 12%;
+    height: 35px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#content {
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+#mockups {
+    width: 100vw;
+}
+
+#mockups img {
+    width: 50vw;
+    margin-top: 10vh;
+}
+
+#about-content {
+    text-align: center;
+    width: 100vw;
+    padding-bottom: 50px;
+}
+
+#about-header {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+#about-content p {
+    text-align: center;
+    width: 70vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 15vw;
+    color: hsl(208, 11%, 55%);
+}
+
+#about-content button {
+    color: #fff;
+    background: hsl(322, 100%, 66%);
+    box-shadow: 0.1px 0.1px 11px #392a4e;
+    border: none;
+    border-radius: 2px;
+    width: 15%;
+    height: 50px;
+}
+
+#overview {
+    padding: 50px;
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+
+#overview img {
+    width: 40vw;
+    height: 60vh;
+    margin-left: 8vw;
+    padding-right: 15vw;
+}
+
+#overview-content h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#overview-content p {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+}
+
+#conv {
+    margin-top: -50px;
+}
+
+#try {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+    background: #fff;
+    box-shadow: 1px 1px 10px #392a4e;
+    border-radius: 5px;
+    margin-top: 25vh;
+    padding-top: 70px;
+    text-align: center;
+    width: 50vw;
+    height: 35vh;
+    margin-left: 25vw;
+}
+
+#try h2 {
+    color: #000;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+#try button {
+    color: #fff;
+    background: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    width: 30%;
+    height: 50px;
+}
+
+footer {
+    margin-top: 20vh;
+    margin-bottom: -3.5vh;
+    position: relative;
+    background: #00252e;
+    font-size: 11px;
+    text-align: center;
+    width: 100vw;
+    height: 55vh;
+}
+
+.footer {
+    display: grid;
+}
+
+.footer img {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.i {
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.i i {
+    float: left;
+    color: #fff;
+    font-size: 25px;
+    width: 2vw;
+    margin-left: 2vw;
+}
+
+#copyright {
+    color: #fff;
+    position: relative;
+    text-align: left;
+    width: 32vw;
+    margin-left: 3.5vw;
+}
+
+#copyright a {
+    color: #fff;
+}
+
+#nav {
+    margin-right: 25vw;
+}
+
+#nav a {
+    text-decoration: none;
+}
+
+#nav ul {
+    text-align: left;
+    list-style: none;
+    font-size: 18px;
+    width: 8vw;
+    float: right;
+    margin: 40px;
+    margin-top: -10vh;
+}
+
+#nav li {
+    margin: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+form {
+    text-align: left;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 73vw;
+    top: 18vh;
+    width: 25vw;
+    height: 35vh;
+}
+
+#form h3 {
+    font-size: 18px;
+}
+
+#form p {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+#form input {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+}
+
+#form button {
+    margin-top: 15px;
+    width: 13vw;
+    height: 45px;
+    margin-left: 48%;
+    color: #fff;
+    background: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 2px;
+}
